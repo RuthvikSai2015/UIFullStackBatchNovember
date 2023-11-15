@@ -133,6 +133,14 @@
 		     development => unit testing 
 			 release => QA for testing 
 			 master/release => Production 
+			 
+		  4. git diff => changes visibility
+		  5. git commit -m "Name: Savitha ,  id: 2345 ,  message:added notes to the git"
+		  6. git push
+		  
+		      create a branch
+			  git branch -b <branch_name>
+			  git push --set-upstream origin development
 		
 		
 		
