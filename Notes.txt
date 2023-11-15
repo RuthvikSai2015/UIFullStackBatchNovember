@@ -1,0 +1,144 @@
+  
+  
+   HTML => Hyper text mark up language (mark the content as certain text as bold,italic) language
+   
+   => tags
+   
+    -> HTML was invented by Sir Time Berners Lee in late 1990's
+	-> develop static web pages
+	-> it can be saved with ".htm" or ".html"
+	
+	 Visual Studio Code => Open source
+	 
+	 how we can execute the html? 
+	 Browsers : GC , Edge , Opera , Mozilla
+	 
+	 how we can apply styles to web page ?
+	 
+	 -> CSS(cascading style sheets)
+	    Color
+		Margin
+		Padding
+		Border
+		
+		Live Server extension
+		Lorem ipsum extension
+		
+		
+		<></> => tag syntax
+		
+		<!DOCTYPE html> => <!-- HTML 5-->
+        <!DOCTYPE>  => <!-- HTML 4-->	
+
+         Structure of Web Page
+
+          Version of HTML/doctype
+
+          root section 
+               => head section
+			       metadata 
+               => body section
+                   content of web page 
+
+        <title>
+
+        Html Tags and attributes
+
+        <meta><meta/>		
+		
+		attributes => provides additional information about the tag(id="metaTag" name="metaTag")
+		
+		 Assignment 
+		 
+		1) Open Editor
+		2) Write Some text(Head and Body)
+		3) Apply formatting 
+		4) Add Paragraphs(p) and line breaks(<br/>)
+		5) Create some text and apply styles
+		
+		=> Work with text related Tags
+		=> Work with Images
+		=> Work with Links
+		=> Work with Tables
+		=> Work with frameset, div and span 
+		=> Work with Forms
+		=> HTML5 New Tags : Other tags
+		
+		Work with Text Related Tags 
+		
+		1. Heading Tags : h1 , h2 , h3 , h4 , h5 , h6 
+		2. Font related tags : font , i(italic) , b(bold) , u(underline) , s(strike out) , small 
+		3. List Tags : ordered list(ol,li) and unordered list 
+		4. Other tags : pre
+		    Semantic Tags 
+		
+		  <hr> => Draw horizontal line 
+		  Semantic Tags 
+		    <h1> This is Header </h1>
+			<header> This is Header </header>
+			<p> 
+			<footer> This is Footer </footer>
+		    
+		Work With Images 
+		
+		<img > => unpaired tag 
+		<img />
+		<meta>
+		
+		https://developer.mozilla.org/en-US/docs/Web/HTML
+		
+		Work with Links
+		
+		anchor tag 
+		
+		<a for redirections
+		
+		Work with Tables 
+		
+		<table>
+		   <caption></caption>
+		   
+		 2 parts table header and table body
+		 
+		 <thead> <th></th> </thead>
+		 
+		 cellpadding is inside the cell content 
+		 
+		 cellspacing is outside the cell (gap between one cell to another )
+		 
+		 50.23*22.5 + 51.99*22.5 => 104.23 * 22.5 
+		 
+================================15-11-2023========================================
+	
+        Git 
+
+         its a repository 
+
+         session => discuss => implement changes -> co ordinate 
+
+         central place => repository 
+		 
+		 https://github.com/ => create an account
+
+          user1 => pull the code from repo => will changes => test the requirement 	
+		  
+		  Install Git for windows
+		  https://git-scm.com/download/win
+		  https://gitforwindows.org/
+		  1. Create a repository 
+		  2. Pull that repository
+		     git clone https://github.com/RuthvikSai2015/UIFullStackBatchNovember.git
+		  3. Branches => Master(copy of production) , release(Production) , development
+		  
+		     development => unit testing 
+			 release => QA for testing 
+			 master/release => Production 
+		
+		
+		
+		
+		
+		
+		
+		
+		
