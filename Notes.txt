@@ -141,8 +141,31 @@
 		      create a branch
 			  git branch -b <branch_name>
 			  git push --set-upstream origin development
+			  
+			  
+			  
+==============================17-11-2023==========================================
+
+        
+		form => grouping the elements into single elements
 		
+		        alphanumeric , number , checkbox , buttons
+				
+	    1.form
+		2.label
+		3.input
 		
+		Get => data is not encrypted
+		Post => Form Data is encrypted and sent to server
+		
+		https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
+		
+		email , password , search , datepicker, upload , button 
+		submit button , reset button , radio button , checkbox, dropdown
+		
+		textarea
+		
+		Assignment :-> complete form with labels and input types
 		
 		
 		
