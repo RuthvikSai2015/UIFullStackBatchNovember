@@ -167,6 +167,30 @@
 		
 		Assignment :-> complete form with labels and input types
 		
+========================20-11-2023======================================
+
+      Frames 
+	    are used to divide your browser window into multiple sections where each section
+		can be 	loaded as seperate HTML Documents
+		
+      <frame> tag is not supported in HTML5
+	  <iframe>
+	  <frameset> tag is not supported in HTML5
+	  
+	  <input type="text" >          <!-- Text Field -->
+	  <input type="number">         <!-- Number Field -->
+	  <input type="email">          <!-- Email Field -->
+	  <input type="password">       <!-- Password Field -->
+	  <input type="search">         <!-- Search Field -->
+	  <input type="date">           <!-- Date Field -->
+	  <input type="file">           <!-- File Upload button-->
+	  <input type="submit">         <!-- Submit button -->
+	  <input type="reset">          <!-- Reset button -->
+	  <input type="button">         <!-- Empty Button -->
+	  <input type="radio">          <!-- Radio button -->
+	  <input type="checkbox" >      <!-- Checkbox -->
+	  <input type="url" >           <!-- Url --> 
+ 		
 		
 		
 		
