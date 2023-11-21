@@ -190,6 +190,16 @@
 	  <input type="radio">          <!-- Radio button -->
 	  <input type="checkbox" >      <!-- Checkbox -->
 	  <input type="url" >           <!-- Url --> 
+	  
+============================21-11-2023===========================================
+
+http://127.0.0.1:5500/post?firstName=&lastName=&email=&password=&contact=&location=indiranagar
+
+
+http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&contact=&location=indiranagar
+
+	  
+	  
  		
 		
 		
