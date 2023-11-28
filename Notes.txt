@@ -228,10 +228,131 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
    <mark>        Defines Marked/Highlighted text 
    <nav>         Defines Navigation Links
    <summary>     Defines a visible heading for details element
-  
+   <aside>       Defines the main relatable content of the document
+   <time>        Defines Time to be displayed  
+   <audio>       to play audio in the document
+   <video>       to display video in the document 
+   
+   https://developer.mozilla.org/en-US/docs/Glossary/semantics
+   
+    SVG and Canvas 
+	
+	Canvas 
+	=> used for drawing 
+	<canvas> javascript => learn javascript 
+	
+	SVG 
+	=> Scalabale Vector Graphics 
+	=> SVG is used to define graphics for the web 
+	=> The HTML <svg> elemnet is a container for SVG Graphics
+	=> drawing boxed , circles , text , graphics and images
+	
+	2D graphics in XML
+	
+	https://codepen.io/winkerVSbecks/pen/wrZQQm
 		
+	 <!-- Draw a line using polygon-->
+    <!-- Design Logo -->
+    <!-- Assignment -->
+	
+==============================27-11-2023=======================================
+
+      CSS => Cascading Style Sheets
+	  
+	  textbox: mobile:50px*30px => laptop:80px*50px
+		Bootstrap , Tailwind , Skeleton , Foundation
+
+      approaches to apply css 
+ 
+     1. Internal
+     2. External 
+     3. Inline Style 	 
 		
+		<p> Lets Learn CSS</p>
 		
+		style = " property : value"
 		
+		text-align : center
+		background-color: blue
+		height
+		width
+		font-family 
+		font-weight
 		
+		Short hand property in css 
+		
+		background , border , padding , margin
+		
+		border: size type color
+		       :2px solid black
+		border : green 
+		
+		padding : 10px 5px 2px 3px		
+		          top right bottom left
+				  t  r b l
+				  
+===================================28-11-2023==================================
+
+         2) Internal CSS => group of elements
+		 
+		    tag{
+			     property1:value,
+				 property2:value,
+				 
+				 propertyn: valuen;
+			}
+			
+			p{            p,img{
+			
+			}             }
+			
+	     3) External 
+		 
+		   external css .css using link 
+		   
+		 Precedence of CSS
+		 
+		 1. Style Attribute 
+		 2. Internal 
+		 3. External 
+		 
+		 Override the precedence just write property:value !important
+		 
+	
+	Types of Selectors in CSS
+	
+	1. Element Selector (tag) 
+	
+	   Ex: element1{ property: value} 
+	   
+	2.Id Selector => user defined ids
+	
+	     <h1 id="h1id">Header 1</h1>
+         <h1 id="h2id">Header 2</h1>
+         <h1 id="h3id">Header 3</h1>
+		 
+		 #id{
+		      property : value
+		 }
+		 
+		 #h1id,#h3id{
+		      border:3px solid red;
+	     }
+		 
+	3. Class Selector
+       
+        .className1{property:value}	  
+
+    4.Universal Selector		html=>body=> elements
+	
+	    *{
+		
+		}
+		
+		div and span tags 
+		
+		div is a block level element
+		span is inline level
+	
+		 
 		
