@@ -1,0 +1,35 @@
+/* div{
+    border:2px solid black;
+}
+#d1{
+   width:100%;
+}
+#d2{
+    width:25%;
+    float:left;
+}
+#d3{
+    width:40%;
+    float:left;
+}
+#d4{
+    width:25%;
+    float:right;
+}
+#d5{
+    width:100%;
+    clear:both;
+}
+#d6{
+    width:100%;
+    clear:both;
+} */
+#d2{
+    border:2px solid black;
+}
+#d2-1{
+    border:2px solid red;
+}
+#d2-1-1{
+    border:2px dashed green;
+}
