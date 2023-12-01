@@ -353,6 +353,27 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		
 		div is a block level element
 		span is inline level
+		
+=========================01-12-2023============================
+
+      Pseudo classes 
+	  
+	  4 stages
+	  a : link {color :blue}
+	  a : hover {color:green}
+	  a: visited {color:red}
+	  a: active {color:brown}
+	  
+	  display property change 
+	  inline display property we cannot change the height and width of element
+	  
+	  change the height and width of element with display inline
+	  change the display property inline-block
+	  
+	  display:none 
+	  
+	  display: flex
+	  display: grid
 	
 		 
 		
