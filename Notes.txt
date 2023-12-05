@@ -375,5 +375,25 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	  display: flex
 	  display: grid
 	
-		 
+============================04-12-2023===========================
+
+     Flexbox layout module aims at providing more efficient way of layout,align and 
+	 distribute the space among items in a container 
+	 
+	 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	 
+	 flex-direction
+	 
+======================05-12-2023===================================
+
+     Flex-box 
+	 
+	 resize and show , it fits accordingly 
+	 
+	 Display : grid 
+	 
+	 CSS Grid Layout enables user to align the elements into columns and rows 
+	 
+	 grid-column : column start / column end
+     grid-row : row start / row end 		 
 		
