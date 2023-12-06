@@ -386,7 +386,7 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	 
 ======================05-12-2023===================================
 
-     Flex-box 
+     Flex-box => content gets auto adjusted 
 	 
 	 resize and show , it fits accordingly 
 	 
@@ -397,3 +397,21 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	 grid-column : column start / column end
      grid-row : row start / row end 		 
 		
+		
+ =======================06-12-2023===============================
+ 
+     Position : property specifies how an element is positioned in a document 
+	 
+	 top , left , bottom right properties 
+	 
+	 static , relative , fixed , absolute and sticky 
+	 
+	 default position static 
+	 
+	 relative position : gets adjusted away from its normal position
+	 
+	 absolute position: gets adjusted according to parent element 
+	 
+	 box-shadow property 
+	 
+	 box-shadow: xoffset yoffset blur spread color:
