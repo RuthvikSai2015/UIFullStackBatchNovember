@@ -412,6 +412,21 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	 
 	 absolute position: gets adjusted according to parent element 
 	 
+	 Sticky position sets the position according to parent element
+	 
+	 fixed position sets the elements according to Document
+	 
 	 box-shadow property 
 	 
 	 box-shadow: xoffset yoffset blur spread color:
+	 
+=======================08-12-2023=================================================
+
+       Bootstrap 
+	   
+	   https://getbootstrap.com/docs/5.0/getting-started/introduction/
+	   
+	   content delivery network => cdn 
+	   
+	   central server => 
+
