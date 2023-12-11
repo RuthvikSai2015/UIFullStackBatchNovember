@@ -429,4 +429,30 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	   content delivery network => cdn 
 	   
 	   central server => 
+	   
+==========================11-12-2023==================================
+	   
+	   getbootstrap.com install bootstrap
+	   
+	   getting locally => received updates
+	   
+	   content delivery network (CDN) is a system of distributed servers
+	   
+	   Internet and speed is mandatory 
+	   
+	   https://getbootstrap.com/docs/5.0/utilities/colors/
+	   
+	   Display property 
+	   
+	   d-lg-none
+	   
+	   .d-{value} the devices xs=> extra small , sm => small , md=> medium 
+	   
+	   position : top left center margin padding 
+	   
+	   mx-2 => margin x=> left and right 2 px margin 
+	   
+	   px-2 => padding apply both the sides
+	   
+	   
 
