@@ -454,5 +454,22 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	   
 	   px-2 => padding apply both the sides
 	   
+==========================12-12-2023==============================================
+
+       size : 1368 * 725 
+	   
+	   Carousel Images
+	   
+	   take 4 images span across the page
+	   4 in larger devices
+	   2 in medium devices
+	   1 in smaller devices 
+	   
+	   small devices => 1 image 1 card=> 12
+	   medium devices => 2 images 2 cards=> 6 6 
+	   large devices => 4 images 3 cards=> 4 4 4
+	   
+	   layouts => container => rows and columns 
+	   
 	   
 
