@@ -488,11 +488,113 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		 
 		  fa fa-facebook 
 		  
-		  
-		  
-	  
-	  
-    
-	   
-	   
+===========================15-12-2023================================================
 
+         MongoDb
+		 ExpressJS
+		 React
+		 NodeJs
+		 
+		 Next JS, Vue JS => Javascript 
+		 
+		 is a Client Side Scripting Language
+		 
+		 High Level and Interpreted Language
+		 
+		 High Level Language is written in simple english language statement where the user
+		  can understand 
+		  
+		 Interpreted Language is ready to run as soon as you are done typing
+		 
+		 developed by Brendan Eich => Netscape communication Corporations
+		 
+		    ECMA(European Computers Manufacturer Association) rules was followed by javascript 
+		  
+		  1992 a web browser called mosiac 
+		  
+		  1993 by NSAC
+		  
+		  1995's Netscape Corporation
+		  
+		  NSAC and Netscape release a browser called Mozilla(Mosiac and Godzilla)
+		  
+		  Static web pages 
+		  
+		  HTML alone will be enough to the job 
+		  
+		  Scripting need to do 
+		  
+		  Mocha Script => Intial version of javascript renamed as Livescript 
+		  
+		  finally JavaScript 
+		  
+		  1995 it was standarised 
+	  
+	      ECMA Script 
+		  
+		  ES1 , ES2 ......ES6 is known as TypeScript
+		  
+		  ========================================================================
+		  
+		  How Javascript works?
+		  
+		   with respective of each browser , the vendor given a plugin in the browser
+		   i.e javascript engine 
+    
+	       
+			Browser	Name of Javascript Engine
+			Google Chrome	V8
+			Edge (Internet Explorer)	Chakra
+			Mozilla Firefox	Spider Monkey
+			Safari	Javascript Core Webkit
+			
+		https://en.wikipedia.org/wiki/JavaScript_engine
+		
+		Traditional JavaScript
+		1) Form Validation like text , email , pwd
+		2) Dynamically show data
+		3) Prepare some alert or confirmation box
+	    4) Display current date and time
+		
+		Novel Javascript used to prepare server side logics
+		
+		1. OTP Creation , Sending and verification
+		2. Phone Email Notification
+		3. Chat Box
+		4. Email and Password Validation
+		5. Forgot Password 
+		
+		Advantages :
+		
+		Dynamic typed language 
+	      int age                   var age ;
+		  float height              float height;
+		  
+		It supports Exception handling , threading , regular expression
+		
+		Client Side Validation + Server Side Validation
+		
+	==========================================================================
+	
+	  How many ways we can write and test our javascript code?
+	  
+	  1. browser console
+	  2. Inside HTML Code <script> tag
+	  3. Seperate Javascript code in a file(.js)
+	  
+	   <script src="test.js"/>
+	   
+	   1. Single Line Comment //
+	   2. Multi Line Comment  /* */
+	   
+	   Keywords are reserved words in a language because they are reserved for specific purpose 
+	   
+	   46 keywords in Javascript 
+
+        https://www.programiz.com/javascript/keywords-identifiers
+		
+	  Q. Tokens in Javascript 
+	  
+	    1. What is Literal?
+		2. What is an Identifier ?
+		
