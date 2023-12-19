@@ -568,7 +568,7 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		
 		Dynamic typed language 
 	      int age                   var age ;
-		  float height              float height;
+		  float height              var height;
 		  
 		It supports Exception handling , threading , regular expression
 		
@@ -597,4 +597,49 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	  
 	    1. What is Literal?
 		2. What is an Identifier ?
+		3. What is Variable and how to declare it?
+		4. What is Constant and how to declare it?
+		5. What is Data Type and types of data types
+		6. What is an Operator and types of Oerator
+		7. Control Statement and types of control statement
+==============================================================================
+
+        Literals
+		
+		Literal => Item stored in a register 
+		Identifier => name given to register 
+		
+		Variable => A variable is a register which literal/value can be varied
+		
+		Constant => is a register which literal/value cannot be changed
+		
+		how do we decide the size? 
+		
+		25 => integer
+		  o25 => octal 
+		  0x25 => hexadecimal
+		  0b10101 => binary
+		  
+		  data type of literal? size 
+		  
+		  "Apple" 'Apple' []
+		
+		Rules for declaring the Identifer 
+		
+		Rule 1: An identifier should be an combination of following character set-upstream
+		
+		      1. combination of alphabets - A-Z , a-z
+			  2. Digits: 0-9
+			  3. Special Symbols : _(underscore), $(symbol)
+			  
+		Rule 2: Identifier should not start with digit
+        Rule 3: An Identifier should not be a keyword	
+        Rule 4: Multiple Identifiers should be seperated with comma 
+                 var fname="savitha",lname="ramesh";
+				 
+		
+
+
+				 
+		
 		
