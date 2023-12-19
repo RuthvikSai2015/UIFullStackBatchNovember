@@ -637,9 +637,40 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
         Rule 4: Multiple Identifiers should be seperated with comma 
                  var fname="savitha",lname="ramesh";
 				 
+===============================================================================
+
+        var / const => keyword to declare an identifier 
 		
-
-
+		Syntax:
+		
+		var/const identifierName;
+		
+		var studentAge; // valid
+        var subject1; // valid
+		var 1subject; //Rule 2
+		var student_gender; // valid
+		var _city; //valid
+		var student_height;  //valid
+        var #hNo; // Rule 1
+		var course1,course2,course3; // valid
+		var if,else,var; // Rule 3
+		var if,while,var,let ; //Rule 3
+		
+		18% GST => const 
+		
+		var productPrice 
+		
+		const gst=18;
+		const gravity = 9.8;
+		var productOilPrice=120;
+		
+		const always comes with the initialization whereas var is not
+		
+		Javascript is dynamically typed language 
+		
+		java int a= 10; a = "java";
+		
+		var a =10; a = "java"
 				 
 		
 		
