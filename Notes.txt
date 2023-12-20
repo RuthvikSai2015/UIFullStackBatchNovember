@@ -671,6 +671,143 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		java int a= 10; a = "java";
 		
 		var a =10; a = "java"
-				 
 		
+==========================20-12-2023========================================
+
+        Req1: store your family member ages 
+		      
+			  var personAge1=32;
+			  var personAge2=28;
+			  var personAge3=43;
+			  
+			  primitive data type   int boolean string
+			  
+			  non primitive data type var personAge = [32,28,43] arrays, objects
+			  
+			  primitive data types are basic data types
+			  non primitive data types are derived data types
+			  
+       Operators
+	   
+	   c = a + b ; // Expression (a,b,c)
+	   
+	   1. Expression is a collection of Operands and Operators 
+	   2. Operators are used between operands to perform specific operation
+	   
+	   3 types of expression
+	   Expr1    a++      Single Operand(Unary Operator)
+       Expr2    a+b      Two Operand (Binary Operator)
+       Expr3    a?b:c	 Three Operands(Ternary Operator)
+	   
+	   8 operators
+	   
+	   1. Increment and Decrement Operators(++,--)
+	   2. Minus(-)
+	   3. Arithmetic Operators(*,-,/,+)
+	   4. Assignment Operator(=)
+	   5. Relational Operator(<,>,>=,<=,!=,!==,===)
+	   6. Logical Operators(&&,||,!)
+	   7. Bitwise Operators(&,|,^,~,<<,>>)
+	   8. Conditional Operators(?,:)
+	   
+	   1 & 2 (Unary Operators)
+	   3 4 5 6 7(Binary Operator)
+	   8 (Ternary)
 		
+		1. ++ can be used pre or post operand
+		
+		++a => pre increment => a = a+1;
+		--a => pre decrement => a = a-1;
+		
+		ex: var x=45;
+		    console.log(++x); //46
+			
+			var x=40;
+			console.log(++x + ++x);
+			             41 + 42
+						 
+	    ex: var x= 40;
+		    console.log(--x + --x); // 77
+			
+	Post Increment
+	
+	a++ = post increment => (a+1)
+	a-- = post decrement => (a-1)
+	
+	ex: var x=45;
+	    clg(x++); //45
+		clg(x); //46
+		
+    ex: var x=40;
+	    clg(x++ + x++); 40 + 41 => 81
+	    clg(x); //42
+			
+		
+	Minus(-) changes the sign of the number 
+	
+	a=6 -a => -6
+-------------------------------------------------------------------------
+	
+	Arithmetic
+	
+	a=10 , b=3;
+	a+b = 13
+	a-b = 7
+	a*b = 30
+	a/ b = 3.3333333333333335
+	
+	Assignment Operator 
+	
+	var x=200;
+	console.log(x=x+100); //300
+	console.log(x); //300
+	
+	shorthand operation in js
+	
+	x+=100; // x = x+100;
+	x/=100 // x = x/100;
+	x-=100 // x = x-100;
+	x*=100 // x = x*100;
+	
+	Relational Operators 
+	(<,>,>=,<=,!= , == , === , !==)
+	
+	x=5;
+	(x++ + --x + ++x + x--) // 21 or 22 
+	
+	=> given your mail id and database mail id 
+	
+	savi1.ruthvik@gmail.com  db: savi.ruthvik@gmail.com
+	(==) operator 
+	
+	if(user.emailid == database.emailid) // true
+	   allow user to login 
+	 otherwise 
+	   not allow or ask to reenter 
+	
+	All Relational Operators will give boolean values true or false
+	
+	if(userCode = rccCode) // valid or not
+	
+	a!=b = true
+	a==b(compare) a=b(assignment) 
+	
+	Logical Operators 
+	
+	This Operator used to check more than one condition and returns boolean value 
+	
+	If i toss one coin how many possibilities? 2
+	If i toss two coind how many possibilities ? 4
+	
+	var b1=true , b2 = false, b3=true;
+	
+	    clg(b1 && b2) ;  // false 
+		clg(b1 && b3) ;
+		clg(b1 && b2 && b3);//left to right
+		clg(b1 || b2);
+		clg(b1 || b3);
+		clg(b1 || b2 || b3);
+		clg(b1 || b2 && b3);
+		clg(b1 || b2 && !b3);
+	
+	
