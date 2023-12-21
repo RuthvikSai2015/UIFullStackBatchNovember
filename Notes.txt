@@ -801,13 +801,94 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	
 	var b1=true , b2 = false, b3=true;
 	
-	    clg(b1 && b2) ;  // false 
-		clg(b1 && b3) ;
-		clg(b1 && b2 && b3);//left to right
-		clg(b1 || b2);
-		clg(b1 || b3);
-		clg(b1 || b2 || b3);
-		clg(b1 || b2 && b3);
-		clg(b1 || b2 && !b3);
+	    console.log(b1 && b2) ;  // false 
+		console.log(b1 && b3) ;  // truw
+		console.log(b1 && b2 && b3);//left to right output false 
+		console.log(b1 || b2); //true
+		console.log(b1 || b3); //true
+		console.log(b1 || b2 || b3); //true 
+		console.log(b1 || b2 && b3); //true
+		console.log(b1 || b2);
+		console.log(!b3);
+		
+		//console.log(b1 || b2 && !b3);
+		
+		+ , - , / ,* BODMAS 
+		
+===========================================21-12-2023==================================
+		
+		N = 14 
+		Binary Representation 
+		32   16   8   4   2    1 
+		0     0   1   1   1    0
+		
+		N = 25 
+		0    1    1   0   0   1
+		
+		Binary to Decimal 
+		N= 101
+		32   16  8  4  2  1
+		0    0   0  1  0  1 => 5
+		
+		N= 1010
+		10
+		
+		used between 2 bits
+		
+		var a = 12, b = 7 , c = 10, d =40;
+		
+		a & b => 12 1100 0111 
+		a | b =>
+		a ^ b =>
+		
+		      1 1 0 0 
+		      0 1 1 1
+		---------------
+		a & b 0 1 0 0 => 4
+		a | b 1 1 1 1 => 15
+		a ^ b 1 0 1 1 => 11
+		
+		~ => complement the value change the sign and add1 12 (~a) => -13
+		
+		<< , >>
+		
+		10 << 2 => n << s => n*2^s                       =>  1 0 1 0       n*2^s
+		           10 << 2 => 10 * 2^2 => 10 * 4 = 40    =>  1 0 1 0 0 0 
+				   10 << 3 => 80
+				   
+		10 >> 2 => n >> s => n/2^s => 10/4 => 2          => 1 0 1 0 
+		           10 >> 3 => 10/8 =>                    => 0 0 1 0        n/2^s
+				   
+				   
+		var a = 12 , b = 7;
+		
+		console.log(a+~b+1)     12 +(-8) + 1  12-8+1 12-8+1 => 5 
+		
+		console.log(a-~b+1)    12 - (-8) + 1 12+8+1 12+9 => 21
+		
+		ternary operator ?,: 
+		
+		if(condition){
+		
+		     stmt1;
+			 
+		}else{
+		    stmt2;
+		}
+		
+		Syntax :
+		   Condition ? stmt1 : stmt2
+		   
+		   var num = 88;
+		   if(num>0){
+		      clg(positive);
+			 }else{clg(negative);
+			 
+			num > 0 ? 'Positive':'Negative';
+			
+	Task : Check given number is even or odd
+		
+		
+		
 	
 	
