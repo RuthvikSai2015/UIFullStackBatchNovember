@@ -811,6 +811,8 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		console.log(b1 || b2);
 		console.log(!b3);
 		
+		https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+		
 		//console.log(b1 || b2 && !b3);
 		
 		+ , - , / ,* BODMAS 
@@ -888,7 +890,136 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 			
 	Task : Check given number is even or odd
 		
+==================================26-12-2023=================================
+
+     Task: Calculate the area of circle 
+	 
+	      pi*radius*radius 
+		  
+		PS1: find the area of circle 
 		
+		     const pi=3.14;
+			 
+			 var radius , areaOfCircle;
+			 
+			 radius = -3.6;
+			 
+			 areaOfCircle = pi * radius * radius
+			 
+			 console.log(areaOfCircle);
+			 
+		so radius = -3.6 ? 
+		
+		console.log(radius>0? pi*radius*radius:"Area cannot be calculated for negative number");
+
+     Task : Find Simple Interest =? PTR/100;
+	 
+=========================================================================
+
+      Control Statements 
+	  
+	  console.log('Hi1');
+	  console.log('Hi2');
+	  console.log('Hi3');
+	  console.log('Hi4');
+	  console.log('Hi5');
+	  console.log('Hi6');
+	  console.log('Hi7');
+	  console.log('Hi8');
+	  console.log('Hi9');
+
+      line by line execution 
+
+     1. Decision Making Statements
+	 
+	    if 
+		if-else
+		nested-if-else
+		switch 
+		
+     2. Loop Statements
+	     while
+		 do-while
+		 for
+     3. Jump Statements	 
+	    break 
+		continue
+		
+		if(condition) //true evaluate once / expression is true evaluate once
+		{
+		   stmt1;  
+		}
+		else{
+		   stmt4,
+		}
+		
+		if(true){
+		   console.log('Hi1');
+		}
+	    if(false){
+		   //statements will not be executed 
+		}
+		
+		
+		https://nodejs.org/en/download
+		
+		node -v => version of node installed 
+		16.17.0
+		
+		Nested If Else 
+		
+		if else ladder
+		
+		var num = 8;
+		
+		       num between 0 to 10 is 1 digit
+			               10 to 100 is 2 digit
+                           100 to 1000 is 3 digit 
+
+       if(num >=0 && num < 9 ){
+         clg("1 digit number");
+       } else if(num >=10 && num < 100){
+	     clg("2 digit number ");
+	   } else if(num >= 100 && num < 1000){
+	     clg("3 digit number");
+	   }
+	   
+	   Nested If Else 
+	   
+	   if (condition1){
+	            if(condition2){
+					  if(condition3){
+					  
+					  }
+				} 
+	   }
+	   checkValue a & b 
+	   
+	   if( a == 1)
+	     if( b == 2 )
+		   clg("a is 1 and b is 2 ")
+	   else
+		   clg("a is not 1");
+		   
+	  if(a==1 && b==2)
+	  
+	  PS2: Take 6 Students Subject Marks and calculate total,average and percentage 
+	  
+	   var s1=50,s2=70
+	   
+	   s1+s2+s3+s4+s5+s6 = total/6 average 
+	  
+	  Print Grade of subjects based on percentage 
+	   
+	  Print 'A' grade if percentage is above 70 
+	  Print 'B'  grade if percentage is between 60 & 70
+	  Print 'C' grade if percentage is between 60 and 50
+	  Print 'D' grade if the percentage is below 50 
+	  
+	  
+	  Switch
+	  
+	  
 		
 	
 	

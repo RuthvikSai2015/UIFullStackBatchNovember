@@ -29,7 +29,7 @@ var b1=true , b2 = false, b3=true;
 		// console.log(!b3); // false 
         console.log(b2 && !b3);
         console.log(b1 || b2 && !b3); // worst case
-                    //  true && false => true 
+                    //  true && false => true cbbbb
 
                     
 	
