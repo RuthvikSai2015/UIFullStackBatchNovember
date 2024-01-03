@@ -1114,7 +1114,253 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	      output += $;
 		  else 
 		  output += c; // character at that place 
+		  
+==============================01-01-2024==========================================
+
+       Math Class Methods
+	   
+	   sin(90)
+	   tan(45)
+	   cos(0)
+	   sqrt(64)
+	   pow(2,3)
+	   abs(7)
+	   
+	   1.declare all the inputs and outputs variables
+	   2.Assign some values to input variables
+       3.Perform business logics
+	   4.Write the Final Result on console or wherever required 
+	   
+	   Drawbacks:
+	   
+	   1. Space and complexity
+	   2. Readability 
+	   3. Modularity
+	   
+	   Functional Programming 
+	   
+	   function function_name(parameters){
+	   
+	     //function set of statements 
+		
+       }
+
+        Advantages of Functional Programming
+
+       1. No Duplication of Code
+       2. Less space and less complexity (one function one task)
+       3. More readibility
+	   4. Modularity
+	   5. Extensibility is simple 
+	   
+	     called function => function add(){}
+		 calling function => add()
 		 
+		 
+		1.Function Declaration
+		2.Function Expression
+		3.Arrow Functions
+		4.IIFE
+		5.Nested Functions
+		
+		use of "function " keyword
+		Argument list and paramater list 
+		
+		
+	Type 1: With parameter list and with return value
+	Type 2: With parameter list and without return value
+	Type 3: Without parameter list and with return value 
+	Type 4: Without parameter list and without return value 
+	
+	//wihtout parameter list 
+	function doSum(){
+	
+	     var num1,num2,addResult;
+		 num1=20;
+		 num2=40;
+		 addResult = num1+num2;
+		 console.log(addResult);
+		 
+	}
+	doSum(); //1000 times 
+	
+	function doSum(num1,num2){
+	
+	  return num1+num2;
+		 
+	}
+	function add(num1,num2){
+          console.log(num1+num2);
+    }
+	doSum(45,35);
+	doSum(90,40);
+	doSum(70,40);
+	
+	function PI(){
+	
+	  return  3.14; // Math.PI
+	  
+	}
+	
+	Assignment : Perform Total,Average and grade of 6 subject marks for 6 students
+	
+	              Total(-,-,-,-,-,-) average(-,-,-,-,-,-) , grade(-)
+				  
+				  function averageMarks(s1,s2,s3,s4,s5,s6){
+				    var result;
+					result=total(s1,s2,s3,s4,s5,s6)/6;
+					return result;
+				  }
+				  function grade(s1,s2,s3,s4,s5,s6){
+				  
+				   result = averageMarks(s1,s2,s3,s4,s5,s6);
+				   if(result < 70)
+				     grade='A';
+					 
+				  }
+				  
+------------------------02-01-2024-----------------------------------
+
+        1.Function Declaration 
+				
+				  //called function
+				  function function_name(paramlist){
+				     //set of statements
+					 //return value 
+				  }
+				  //calling function 
+				  function_name(arglist);
+				  
+		2.Function Expression 
+		
+              = operator has to come immediately 
+             called function
+                var function_name = function(paramlist){
+
+                     //set of statements
+                     //return value 
+                 }	
+
+              calling function
+              function_name(arglist);
+			  
+		Type 1 , remaining Types as assignment with function expression
+
+        5.Nested Functions are functions inside function 
+
+           function averageMarks(html,css,js){
+
+				function totalMarks(html,css,js){   //private to the function averageMarks
+					return (html+css+js);
+				}
+				 return totalMarks(html,css,js)/3;
+			 }		
+			 
+		4.Arrow Functions => most advanced way of preparations
+		    =>
+	      called function		
+		  let function_name = (paramlist) => {
+		     //set of statements
+			 //return vallue
+			
+		  }
+		  calling function
+		  function_name(arglist);
+		  
+		  //Arrow function with single parameter and without return value 
+		  
+		   let cube = (num) => {
+		      console.log(Math.pow(num,3);
+		   }
+           //Arrow function with single parameter and with return value 
+		   
+		   let cube = num => {
+		       return Math.pow(num,3);			   
+			}
+			let cube = num => Math.pow(num,3);	
+			
+	    4.IIFE(Immediately Invoked function expression) 
+		
+		  Called Function + Calling Function 
+		  
+		   (function(paramlist){
+		   
+		     //set of statements return value 
+			 
+			})(arglist);
+			
+		 step1 : () () ;
+		          called function
+				     calling function 
+					
+=======================03-01-2024===================================================
+
+        Arrays 
+		
+		   function doSomething(){
+		      let person1Age = 25;
+			  let person2Age = 32;
+			  let person3Age = 45;
+		   }
+		   
+		   let personAges = [25,22,45,50];
+		   
+		  What is Array?
+		    Array is used to store multiple elements in single variable
+		  how to create array?
+		  length property 
+		  how to access Array Elements ?
+		  how to modify Array Elements?
+		  const Arrays
+		  Array Methods
+		    push(),pop(),shift(),unshift()
+			splice()
+			concat(),sort(),slice()
+			indexOf,lastIndexOf()
+			map(),filter(),some()
+			
+	    create an array 
+		
+		approach1 : let array1=[];
+        approach2:  let array1 = new Array();
+		
+		const personAges = [25,22,45,50,45,20,60];
+		personAges[5]=55;
+
+		console.log(personAges);
+
+		personAges = [25,40,32,80]; // not valid 
+		
+		with const we cannot re - assign the whole array
+		
+		we can modify any index value 
+		
+		Array Methods:
+	-------------------------------------------------------------------------
+	    push() => insert elements at end of the array 
+		pop() => remove elemens at the end of the array
+		unshift() => insert elements at beginning of the array
+		shift() => remove elemens at the beginning of the array
+		
+		concat()
+		
+		indexOf() => will return -1 if element is not existing 
+		
+		
+		
+
+		
+			
+			
+	    
+
+				  
+				  
+	
+		
+		
+		
+		
 		
 	   
 	  
