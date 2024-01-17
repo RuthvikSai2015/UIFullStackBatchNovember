@@ -1314,7 +1314,7 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		  const Arrays
 		  Array Methods
 		    push(),pop(),shift(),unshift()
-			splice()
+			splice() // json objects
 			concat(),sort(),slice()
 			indexOf,lastIndexOf()
 			map(),filter(),some()
@@ -1346,6 +1346,180 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		
 		indexOf() => will return -1 if element is not existing 
 		
+		lasIndexOf() = return from right to left 
+		
+==========================04-02-2024============================
+		
+		Map and Filter 
+		
+		var numbers = [10,20,30,40,50,60];
+		
+		// 1.Add value 2 to each number in printArray 
+		// 2.Sum of elements = 210 
+		// 3.return the elements greater than 35 => 40 50 60 
+		
+		//1. iterate loop and add create a new array 
+		
+		1.map() 
+		2.reduce()
+		3.filter()
+		
+		splice() 
+		 1. adding element into array
+		 2. removing element from array 
+		 
+		 
+		syntax : 
+		
+		var removedElements = splice(startIndex, removedCount , newItem1, newItem2, newItem3 , ..........);
+
+        splice method returns elements which are deleted from array;
+		
+		Array Packing and Unpacking 
+		
+		let a = 10;
+		let b = true;
+		let c = 'Apple';
+		let array1 = [a,b,c] // array packing 
+		
+		//unpacking 
+		var x , y , z;
+		[x,y,z]= array1;
+		
+		-------------------------------------------------------------
+		
+		3.Strings 
+		
+		  => array of characters 
+		  
+		  String can be created in 2 ways
+		  1. let mystring = 'Apple';
+		  2. let mystring = new String('Apple');
+		  
+		  String can be represented in 3 ways
+		  1. Using Single quotes ('')
+		  2. Using double quotes("");
+		  3. Using Back tick(above tab and under esc key `)
+		  
+		  using back ticks we can bind expression in strings 
+		  
+		  String methods 
+		  
+=======================================16-01-2024===========================
+
+         let a = 10;
+		 
+		 4.Boolean 
+		 
+		 let a = true ;
+		 
+		 if(10 > 1){
+		 
+		 }
+		 
+		 5.Undefined
+		 
+		   let a ;
+		   
+		   typeof(a) //undefined 
+		   
+		 6. null 
+		 
+		 let user = null;	
+		 
+		  typeof(user); //object
+		  
+		  In javascript null means "reference to an existing object "
+		 
+   7.  Object
+
+      let user = {};
+         
+      let user = {
+	      name : "rakesh",
+		  age : 10,
+		  id : 123;
+	  }	
+
+==============================================================================
+
+        Javascript Objects
+
+      Objects => Collection of various data types 
+
+          { key : value }
+          key => string 
+
+      How to declare a object?
+	  
+	  1. let user = new Object(); //Object Constructor 
+	  2. let user = {};
+
+      delete is used only with objects 
+	  
+	  Array of Ojects 
+	  
+	  [{},{},{}]
+	  
+	   let users = [
+				   {
+				name:"rakesh",
+				id:123,
+				age:31
+			}
+			{
+				name:"rakesh",
+				id:123,
+				age:31
+			}
+			{
+				name:"rakesh",
+				id:123,
+				age:31
+			}
+			{
+				name:"rakesh",
+				id:123,
+				age:31
+			}
+			{
+				name:"rakesh",
+				id:123,
+				age:31
+			}
+	   ]
+	  
+	  https://jsonplaceholder.typicode.com/comments 
+	  
+	  Print id with name 
+	  Print email with id
+	  
+	  For in and For of Loops 
+	  
+	  Objects For..in Loop
+	  Arrays For..of loop 
+         
+===========================17-01-2024================================
+
+     We need to change the DOM => Javascript 
+	 
+	 html : prepare DOM
+	 CSS : Look and feel for DOM
+	 JS : Manipulation of DOM 
+	 
+	   onClick = "fun()"
+	   ondblClick = "fun()"
+	   onmouseenter = "fun()"
+	   onmouseleave = "fun()"
+
+    Assignment : Cube of a Number
+	             EMI Calculator 
+        
+		  
+		  
+		  
+		  
+
 		
 		
 
