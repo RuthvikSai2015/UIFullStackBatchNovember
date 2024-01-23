@@ -1513,10 +1513,37 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	   onmouseleave = "fun()"
 
     Assignment : Cube of a Number
-	             EMI Calculator 
+	            //  EMI Calculator 
+				 Simple Interest , Average of 3 Numbers 
         
+		
+======================23-01-2024=====================================
+
+      
+		 Task:  https://jsonplaceholder.typicode.com/comments
 		  
 		  
+		  1. Mouse related events
+		     onclick, ondblclick, onmouseenter, onmouseleave 
+		  2. Key related events 
+		     onkeyup , onkeydown , onfocus 
+		  3. Focus related events 
+		     onblur , onfocus
+		  4. Form related events 
+		     onsubmit , onreset
+		  5.Other events 
+		     onload , onunload , onselect , oncopy , onchange .......
+			 
+		https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+		
+		keydown and keypress 
+		
+		 <form onsubmit="onSubmitFunction()" >
+		 
+		 onSubmitFunction(){
+		   //api call passing username and password 
+		 }
+		
 		  
 		  
 
