@@ -1543,6 +1543,23 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		 onSubmitFunction(){
 		   //api call passing username and password 
 		 }
+		 
+===================25-01-2024==============================================
+
+        1995 => ECMA Script 
+		
+		ECMA script => form validation , run on browser , object based programming language
+		
+		Basic features were getting enhanced top of that 
+		
+		Basic phone    smart phone 
+		  JS             TS
+		  
+		  ES1,ES2 ES3
+		  
+		  https://www.geeksforgeeks.org/javascript-versions/
+		  
+		  demo.ts => demo.js  
 		
 		  
 		  
