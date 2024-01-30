@@ -1560,10 +1560,152 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		  https://www.geeksforgeeks.org/javascript-versions/
 		  
 		  demo.ts => demo.js  
+		  
+		  who will convert typescript to javascript ?
+		  it is transpilers
+		  
+		  tsc 
+		  
+		  https://www.npmjs.com/package/typescript
+		  
+		  Typescript is strongly typed language 
+		  
+		  let varName:datatype = value;
+		  
+		  personAge = 21                 let personAge:Number = 21
+		  
+		  Non Primitive type 
+		  
+		  let familyAges = {21,22,34,56};
+		  
+		  let familyAges:Number[] = {21,34,56,78};
+		  
+		  let person:object = { personAge:21,personName:'Ajay'}
+		  
+		  Generic data type (any ) 
+		  
+		  
+		   function functionName(param1: type,param2: type) :returnType{
+		   
+		       // function body 
+			   
+			 }
+			 
+			 functionName(arglist);
+			 
+========================29-01-2024====================================
+			 
+		Object oriented features in typescript ?
 		
+		1. How to declare data ?
+		2. How to declare function ?
+		
+		 let num1:number;
+		 let num2:number;
+		 function addition(){
+		     return num1 + num2;
+		 }
+		 
+		3. Class => Data + Function 
+		 
+		   class Addition{
+		      let num1:number;
+			  let num2:number;
+			  function addition(){
+		         return num1 + num2;
+		      }
+		   }
+		 
+		 syntax :
+		 class ClassName{                let objectName = new ClassName();
+		 }
+		 
+		 Class => Imaginary thing in world
+		 Object => Physical existing thing in the world , instance of class
+		 
+		 Encapsulation : Wrapping of data and functions/methods together is known as encapsulation
+		 
+		  Access Modifier :
 		  
-		  
+		    1.private : These members can be visible to single/current class only 
+			2.public: These members can be visible to outside any class
+			3.protected: These members can be visible from parent to child class
+			
+			default access modifier is public 
+			
+			class Addition{
+			     //data
+				 num1:number; // access Modifier dataName1: dataType
+				 num2:number;
+				 //function 
+				 access Modifier addition():number{
+					return this.num1+this.num2;
+				}
+				 access Modifier function2():number{
+					return this.num1+this.num2;
+				}
+				 access Modifier function3():number{
+					return this.num1+this.num2;
+				}
+			}
+			let obj1= new Addition();
+			obj1.num1 = 10;
+			obj1.num2 = 20;
 
+			let result = obj1.addition();
+			console.log(result);
+			
+			class : Human  age,maritalStatus,height,weight  eating() , sleeping()
+			
+			Constructor 
+			
+			Task : rewrite the same code for Addition 
+		    Task : jsonplacholder fake api . users design a class 
+		 
+		 Asynchronous programming , callbacks 
+		 
+======================30-01-2024=========================
+		 
+		 javascript is synchronous (sequence by sequence)
+		 
+		 asynchronous (parallel)
+		 
+		 using callbacks 
+		
+		  A callback is a function that is passed as an argument to another function 
+
+          "called back" at a later time 
+		  		  
+		  "callback hell" 
+		  
+		  Promises => resolve and reject 
+		  
+=====================Node js=========================================
+
+          Node js is a open source javascript run time environment
+
+          built on Google Chrome Javascript V8 engine 
+		  
+		  Features of Node js 
+		  -----------------------------------------------------
+		  1. Asynchronous and Event Driven 
+		  2. Very Fast 
+		  3. Single Threaded but Highly scalable 
+		  4. No Buffering (packets or chunks)
+		  
+		  eBay , PayPal, Yahoo 
+		  
+		  https://nodejs.org/en/download
+		  
+		  https://www.mongodb.com/cloud/atlas/register
+		  
+		  https://www.mongodb.com/products/tools/compass
+		  
+		  Create Nodejs Application 
+		  
+		  1. Import the Module (http)
+		  2. Create Server 
+		  3. pass the request and get the response 
 		
 		
 
