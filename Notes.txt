@@ -1680,32 +1680,363 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		  
 		  Promises => resolve and reject 
 		  
-=====================Node js=========================================
+==================================================================================================
 
-          Node js is a open source javascript run time environment
+        Node JS => run time javascript library 
+		built on V8 Engine 
+		
+		2009 by Ryan Dahi v0.10.36
+		
+		https://nodejs.org/en/download/ -- installation 
+		
+		Features of Nodejs
+		
+		Asynchronous and Event Driven : 
+		
+		Very Fast : API Communication 
+		
+		No Buffering : output the data in chunks (portion by portion 100)
+		
+		Single Threaded but Highly scalable : 
+		
+		---------------------------------------------------------------
+		
+		Where to use Node js
+		
+		Data Streaming Applications
+		JSON Based Applications
+		Input/Output based Applications 
+		
+		login request = {"username":username,"password":password}
+		register request = {"username":username,"password":password,"address":{"hno":hno,"place":place},"phone":[phone1:phone1,phone2:phone2]}
+		
+		three components 
+		1) Import required modules => require => load nodejs modules 
+		2) Create Server 
+		3) Read Request and Return Response 
+		
+		1) var http = require("http")
+		2) http.createServer() 8081 listen method 
+		
+		  http.createServer( function(req,res){
+		    //send the HTTP header
+			//HTTP Status 200 : ok 
+			// content type : text/plain
+			
+			res.writeHead(200, { 'Content-Type' : 'text/plain'})
+			res.end('Hello World\n');
+		 }).listen(8081);
+		
+		https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
 
-          built on Google Chrome Javascript V8 engine 
+         REPL Terminal 
+		 Read , Eval , Print , Loop 
+		 
+		 Package Manager (NPM) 
 		  
-		  Features of Node js 
-		  -----------------------------------------------------
-		  1. Asynchronous and Event Driven 
-		  2. Very Fast 
-		  3. Single Threaded but Highly scalable 
-		  4. No Buffering (packets or chunks)
+		 Modules into my Node js Application 
+		 
+		 npm install <Module Name>
+		 
+		 npm install express 
+		 
+		 var express = require('express');
+		 
+		 npm install lodash
+		 
+		   "lodash": "^4.17.21",
+		   
+		   "lodash": "^3.17.21", 
+		 
+		 npm -> node package manager -> is used to manage the application
+		 npx -> node package execute  -> 
+	
+		
+		https://www.npmjs.com/package/express
+		
+		MEAN MERN 
+		
+		Express js 
+		
+		http://localhost:8081/login => req => {username,password} res => {success/failure}
+		
+		Express js is a Node js web application server framework 
+		designed for building single page,multi page and hybrid web applications 
+		
+		npm install express 
+		
+		create node express application
+		
+		npx express-generator app-name /  create a node application and then install express / cdn
+		
+		
+		GET    => Request for one or more data 
+              cannot pass data in body
+
+		POST  => Insert a record into database
+					   pass data in body
+
+		PUT  => Update a record into database 
+					  
+		DELETE => delete a record from the database
+
+		https://nodejs.dev/en/api/v19/documentation/
+		
+		Callbacks => asynchronous way of programming
+		
+		
+		input.txt => Welcome back to Node Js
+		
+		
+		==========================================================
+		Blocking Code
+		
+		var fs = require("fs");
+		var data = fs.readFileSync("input.txt");
+		
+		console.log(data.toString());
+		console.log("Program Ended");
+		
+		===========================================================
+		
+		Non - Blocking Code
+		
+		var fs = require("fs");
+		var data = fs.readFile("input.json",function(err,data){
+			if(err) return console.log(err);
+			console.log(data.toString());
+		})
+		console.log("Program Ended");
+		
+		============================================================
+		
+		Event Driven Programming 
+		
+		var buffer = new Buffer(10) => 10 octet streams of data(uninitialised)
+		
+		var buffer = new Buffer([10,20,30,40,50]); 
+		
+		var buffer = new Buffer("string1"); ["string","string1"]
+		
+		Streams => Streams are objects that let you read data from a source and write data to source
+		
+		Readable  -- used for read operation 
+		Writable  -- used for write operation
+		Duplex    -- used for both read and write operation
+		Transform -- type of duplex stream where output is based on input 
+		
+		Piping the Streams 
+		
+		piping is a mechanism where we provide the output of one stream as the input to other stream
+		
+		File System 
+		
+		https://github.com/RuthvikSai2015/ReactJsSession2
+		
+		Global Objects 
+		
+		available in all modules 
+		
+		Express is a Node js web application framework 
+		
+		=> Handle HTTP requests
+		
+		=> dynamically render HTML Pages based on passing arguments
+		
+		=> Routing 
+		
+		=> localhost:3000/api/createUser 
+		   /updateUser 
+		   /retrieveDetails 
+		   /deleteDetails
+		   
+		body-parser => handle JSON,Text,XML, encoded data
+		
+		cookie-parser => parse request header and populate req.cookies 
+		
+		multer => handle form-data/multipart
+		
+		npm install body-parser
+		
+		npm install cookie-parser
+		
+		npm install multer 
+		
+		res.end() is used to send text to browser
+		
+		ejs => express javascript files 
+		
+		html => ejs 
+		
+		npm install ejs
+		
+		https://ejs.co/
+		
+		ejs => Embedded Java script
+		
+		=========================================================================
+		
+		React Js is a front-end javascript library for building user interfaces based on components
+		Node is a server provides the run time environment 
+		Express is a back-end nodejs framwork for building web applications such as b2b and b2c
+
+		
+        npm install nodemon
+
+        package.json => "start": "nodemon ./bin/www"	
+		
+		EJS 
+
+        Tag1: Scriptlet <% %>
+        Tag2: Declaration <%= %>
+        Tag3: Comment <%# %>
+		
+		Task:
+		
+		prepare get url like /employee which displays employee info
+		
+		Modules 
+		
+		1. Node js Built in Modules 
+		
+	       Ex: fs, http , url 
+		   
+		   Syntax: let varName = require('modulename')
+		            let http = require('http')
+					
+	    2. Third Party Modules => Installed on Node js server explicitly with npm tool
+		
+		   Ex: express, ejs , nodemon , mongodb
+		   
+		    Syntax : npm install/i <modulename>
+			
+		If developer installs any 3rd party module it will be stored in "node_modules" folder
+
+        3. User defined Modules 		
+            exports: varName : any []
+			
+			
+	===============================================================================
+	
+	    Initialising Node js Project
+		
+		npm init --yes <!-- generated package.json -->
+		
+		Form handling in ejs 
+		
+    ============================================================
+	
+	    Database => storing the data (persist) 
+		
+		SQL and NoSQL 
+		
+		SQL => Structured Query Language 
+		
+		schema => Plan or representation (fixed schema) 
+		table => Students => rollno,name,class,section,address,marks,fromwhichstandard
+		                     50 = 6 columns data , 1 column data 
+							 51 = 7 columns data
+		rows/columns
+		queries => fetch,delete,add,modify 
+		SQL, PostgreSQL, Oracle , MySQL 
+		table students
+		table1 course 
+		table2 dept 
+		RDBMS 
 		  
-		  eBay , PayPal, Yahoo 
+		NoSQL => No Structure Maintained , MongoDB 
+		schema => dynamic schema 
+		           50 = 6 columns data
+				   51 = 7 columns data
+				   52 = 10 columns data
+                   53 = 5 columns data 	
+
+        JSON Data based (key value pairs)
+        Table        =======     Collections 	
+        rows         =====       Document 
+        columns      =====       Fields
+		Primary Key  =====       _id provided by MongoDB 
+		
+		Mongo Shell
+		MongoDB => Mongodb Compass, Robo 3T , nosqlbooster 
+		
+		https://www.mongodb.com/try/download/compass
+		
+		commands
+		
+		=> show dbs => currently available databases in the mongodb 
+		
+		=> use <databasename> 
+		
+		=> show collections
+		
+		NodeJs Server Interaction with MongoDB
+		
+		Node Modules 
+		+++++++++++++++++
+		1. http module 
+		2. fs 
+		3. url 
+		
+		Third Party Module
+		MongoClient Module => Nodejs establishes connection with MongoDb Server
+		
+		Step1: Install MongoDb Module on NodejS Server
+		       npm i mongodb
+			   
+		Step2: write one program(js) to connect with MongoDb server
+		
+		https://www.mongodb.com/try/download/community
+		
+		Advantages : 
+		
+		=> Schema less database 
+		=> Scalability 
+		=> faster to access the data 
+		
+		1. Create a database : use <databasename>
+		                       
+		2. Create a collection : db.createCollection("collectionname",options)
+		   options => memory size and indexing 
+		3. Create a document : db.collectionname.insert(document)
+		                        {})
+							   db.collectionname.insertOne({}) insert one document inside the collection
+							   db.collectionname.insertMany({}) insert many  document inside the collection
+		
+		db.test.insertMany([
+		{_id:1,firstName:"Savitha","lastName":"Ramesh",dob:"08-09-1993",email:"savi@gmail.com"},
+		{_id:2,firstName:"Kumari","lastName":"Rao",dob:"08-09-1994",email:"kumari@gmail.com"},
+		{_id:3,firstName:"Krishna","lastName":"Sri",dob:"08-09-1995",email:"sri@gmail.com"}
+		])
+		
+		db.test.find({})
+		db.test.find({bookId:1})
+		
+		db.test.find({firstName:"Kumari")}
+		db.test.find({firstName:"Krishna",lastName:"Sri"})
+		
+		mongoClient.connect(databaseUrl, callback acknowledgement)
+		
+		https://www.tutorialspoint.com/mongodb/mongodb_datatype.htm
+		
+		dbObject.collection('students').find({}) => return all the records
+		
+		insertOne()
+		insertMany()
+		find()
+		findOne()
+		deleteOne()
+		deleteMany()
+		updateOne()
+		updateMany()
+		
+		CRUD Create => insert() 
+		     Retrieval => find()
+			 Update => update()
+			 Delete => delete()
+			 
+			 https://www.npmjs.com/package/mongoose
 		  
-		  https://nodejs.org/en/download
-		  
-		  https://www.mongodb.com/cloud/atlas/register
-		  
-		  https://www.mongodb.com/products/tools/compass
-		  
-		  Create Nodejs Application 
-		  
-		  1. Import the Module (http)
-		  2. Create Server 
-		  3. pass the request and get the response 
 		
 		
 
