@@ -1708,6 +1708,7 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 		Input/Output based Applications 
 		
 		login request = {"username":username,"password":password}
+		
 		register request = {"username":username,"password":password,"address":{"hno":hno,"place":place},"phone":[phone1:phone1,phone2:phone2]}
 		
 		three components 
@@ -1929,6 +1930,8 @@ http://127.0.0.1:5500/post?user-name=&firstName=&lastName=&email=&password=&cont
 	    Database => storing the data (persist) 
 		
 		SQL and NoSQL 
+		
+		NoSQLBooster => for MongoDB
 		
 		SQL => Structured Query Language 
 		
